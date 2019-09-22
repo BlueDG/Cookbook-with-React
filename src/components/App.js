@@ -70,40 +70,40 @@ export default function App() {
 const sampleRecipes = [
   {
     id: 1,
-    name: "Plain Chicken",
+    name: "2 AM Chili",
     servings: 3,
     cookTime: "1:45",
-    instructions:
-      "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat the chicken",
+    instructions: "1. Buy some meat\n2. Change your mind\n3. Order some sushis",
     ingredients: [
       {
         id: 1,
-        name: "Chicken",
-        amount: "2 pounds"
+        name: "Sushis",
+        amount: "As much as you need"
       },
       {
         id: 2,
-        name: "Salt",
-        amount: "1 Tbs"
+        name: "Chili meat",
+        amount: "About 7 oz"
       }
     ]
   },
   {
     id: 2,
-    name: "Plain Pork",
-    servings: 5,
-    cookTime: "0:45",
-    instructions: "1. Put salt on pork\n2. Put pork in oven\n3. Eat the pork",
+    name: "Crêpe au sucre",
+    servings: 1,
+    cookTime: "2 minutes",
+    instructions:
+      "Vous avez de la pâte, vous avez du suc, alors avec la pâte vous faites une crêpe puis vous mettez du sucre dessus.",
     ingredients: [
       {
         id: 1,
-        name: "Pork",
-        amount: "3 pounds"
+        name: "Sucre",
+        amount: "Petite dose"
       },
       {
         id: 2,
-        name: "Paprika",
-        amount: "2 Tbs"
+        name: "Pâte",
+        amount: "Une bonne louchée"
       }
     ]
   }
